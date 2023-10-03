@@ -11,9 +11,10 @@ To create a virtualenv in GitHub codespaces, in the terminal, use `virtualenv ~/
 Modify the bashrc file so that it'll start the venv automatically. If you're familiar with SageMaker, this is similar to lifecycle configurations. You can achieve this in codespaces by:
 1. `vim ~/.bashrc`
 2. `G` or `Shift+G` to the bottom
-3. Source it `source ~/.venv/bin/activate`
-4. Hit `Esc`
-5. `:wq` and `Enter` to exit Vim, which means "write and quit"
+3. Start editing by hitting `Space + Enter`
+4. Source it `source ~/.venv/bin/activate`
+5. Hit `Esc`
+6. `:wq` and `Enter` to exit Vim, which means "write and quit"
 
 ## Introduction to Testing with pytest
 
