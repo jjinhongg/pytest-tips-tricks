@@ -2,6 +2,19 @@
 
 [![Test Multiple Python Versions](https://github.com/jjinhongg/pytest-tips-tricks/actions/workflows/test-ci.yml/badge.svg)](https://github.com/jjinhongg/pytest-tips-tricks/actions/workflows/test-ci.yml)
 
+## GitHub actions
+You can find the .yml file [here](https://github.com/jjinhongg/pytest-tips-tricks/blob/main/.github/workflows/test-ci.yml)
+
+## Python project layout
+I use codespaces and cloud IDEs for my projects.
+To create a virtualenv in GitHub codespaces, in the terminal, use `virtualenv ~/.venv`.
+Modify the bashrc file so that it'll start the venv automatically. If you're familiar with SageMaker, this is similar to lifecycle configurations. You can achieve this in codespaces by:
+1. `vim ~/.bashrc`
+2. `G` or `Shift+G` to the bottom
+3. Source it `source ~/.venv/bin/activate`
+4. Hit `Esc`
+5. `:wq` and `Enter` to exit Vim, which means "write and quit"
+
 ## Introduction to Testing with pytest
 
 * Why Test?
